@@ -1,0 +1,34 @@
+{
+  "name": "opsworks-webserver",
+  "description": "Installs/Configures a webserver",
+  "long_description": "Installs/Configures a webserver",
+  "maintainer": "AWS OpsWorks Demos",
+  "maintainer_email": "opsworks-feedback@amazon.com",
+  "license": "All rights reserved",
+  "platforms": {
+
+  },
+  "dependencies": {
+    "nginx": "~> 9.0.0"
+  },
+  "providing": {
+
+  },
+  "recipes": {
+
+  },
+  "version": "0.6.1",
+  "source_url": "",
+  "issues_url": "",
+  "privacy": false,
+  "chef_versions": [
+
+  ],
+  "ohai_versions": [
+
+  ],
+  "gems": [
+
+  ],
+  "eager_load_libraries": true
+}
