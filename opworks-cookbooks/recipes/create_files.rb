@@ -2,7 +2,7 @@
 directory '/tmp/copy_file' do
     recursive true
   end
-  
+
   directory '/tmp/create_file' do
     recursive true
   end
@@ -24,6 +24,6 @@ directory '/tmp/copy_file' do
     group "root"
     mode "0755"
     owner "ec2-user"
-    path "/tmp/create-directory-demo/hello.txt"
+    path "/tmp/copy_file/hello.txt"
     source "hello.txt"  
   end
