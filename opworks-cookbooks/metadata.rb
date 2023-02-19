@@ -1,8 +1,8 @@
-name 'opsworks_cookbook_demo'
+name 'opworks-cookbooks'
 maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer_email 'sonpham170199@outlook.com'
 license 'All Rights Reserved'
-description 'Installs/Configures opsworks_cookbook_demo'
+description 'Installs/Configures opworks-cookbooks'
 version '0.1.0'
 
 # The `issues_url` points to the location where issues for this cookbook are

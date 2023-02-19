@@ -4,13 +4,13 @@
 # https://docs.chef.io/policyfile/
 
 # A name that describes what the system you're building with Chef does.
-name 'opsworks_cookbook_demo'
+name 'opworks-cookbooks'
 
 # Where to find external cookbooks:
 default_source :supermarket
 
 # run_list: chef-client will run these recipes in the order specified.
-run_list 'opsworks_cookbook_demo::default'
+run_list 'opworks-cookbooks::default'
 
 # Specify a custom source for a single cookbook:
-cookbook 'opsworks_cookbook_demo', path: '.'
+cookbook 'opworks-cookbooks', path: '.'
