@@ -6,10 +6,6 @@ file "Create a file" do
     path "/tmp/create-directory-demo/index.html"
   end
   
-  cookbook_file "Copy a file" do  
-    group "root"
-    mode "0755"
-    owner "ec2-user"
-    path "/tmp/create-directory-demo/hello.txt"
-    source "hello.txt"  
+  remote_file '/tmp/copy_file/index.html' do
+    source 'file:///tmp/create_file/index.html'
   end
