@@ -1,5 +1,13 @@
 # Create a file "index.html" directly from a task to the machine.
-file "Create a file" do
+directory '/tmp/copy_file' do
+    recursive true
+  end
+  
+  directory '/tmp/create_file' do
+    recursive true
+  end
+
+  file "Create a file" do
     content "<html>This is a placeholder for the home page.</html>"
     group "root"
     mode "0755"
