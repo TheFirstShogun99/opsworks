@@ -1,4 +1,4 @@
-# Create a file "index.html" directly from a task to the machine.
+# Create two directory copy_file and create_file
 directory '/tmp/copy_file' do
     recursive true
   end
@@ -6,7 +6,7 @@ directory '/tmp/copy_file' do
   directory '/tmp/create_file' do
     recursive true
   end
-
+  # Create a file "index.html" directly from a task to the machine.
   file "Create a file" do
     content "<html>This is a placeholder for the home page.</html>"
     group "root"
